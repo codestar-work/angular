@@ -1,6 +1,7 @@
 import { bootstrap, Component, NgFor } from 'angular2/angular2';
+
 @Component({
-	selector: 'map',
+	selector: 'search',
 	directives: [NgFor],
 	template: `
 	<div id="search-panel">
@@ -36,10 +37,10 @@ class Map {
 	}
 
 	search(query) {
-		var text = query.value;
+		var text = query.value.toUpperCase();
 		this.result = [];
 		for (let i = 0; i < this.stations.length; i++) {
-			if (this.stations[i].postcode == text) {
+			if (this.stations[i].address.indexOf(text) >= 0) {
 				this.result.push(this.stations[i]);
 			}
 		}
