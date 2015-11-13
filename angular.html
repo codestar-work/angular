@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<app></app>
+
+	<script src="/system.js"></script>
+	<script src="/typescript.js"></script>
+	<script src="/angular2.js"></script>
+
+	<script>
+		System.config({
+			transpiler: 'typescript',
+			typescriptOptions: { emitDecoratorMetadata: true }
+		});
+		System.import('./app.es');
+	</script>
+</body>
+</html>
