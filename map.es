@@ -1,14 +1,17 @@
-import { bootstrap, Component, NgFor } from 'angular2/angular2';
+import { bootstrap, Component, View, NgFor } from 'angular2/angular2';
 
 @Component({
-	selector: 'search',
+	selector: 'search'
+})
+@View({
 	directives: [NgFor],
 	template: `
 	<div id="search-panel">
 		<div class="input-group">
 			<input class="form-control" placeholder="Search"
 				autofocus="autofocus" autocomplete="off"
-				#query (keyup.enter)='search(query)' />
+				#query (keyup.enter)='search(query)'
+				(keyup)='keyup(query)'/>
 			<span class="input-group-btn">
 				<button class="btn btn-primary"
 					(click)="search(query)">Search</button>
@@ -39,10 +42,20 @@ class Map {
 	search(query) {
 		var text = query.value.toUpperCase();
 		this.result = [];
-		for (let i = 0; i < this.stations.length; i++) {
-			if (this.stations[i].address.indexOf(text) >= 0) {
-				this.result.push(this.stations[i]);
+		if (text.length > 0) {
+			for (let i = 0; i < this.stations.length; i++) {
+				if (this.stations[i].address.indexOf(text) >= 0) {
+					this.result.push(this.stations[i]);
+				}
 			}
+		}
+	}
+
+	keyup(query) {
+		if (query.value.length == 0) {
+			this.result = [];
+		} else {
+			this.search(query);
 		}
 	}
 }
