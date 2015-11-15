@@ -1,0 +1,113 @@
+[{"Symbol":"aapl","Type":"Solution","StockExchange":"NQ","Name":"Apple Inc.","MarketCapitalization":"626.33","EBITDA":"82.49","PERatio":"12.18","Volume":"45812403"}
+,{"Symbol":"goog","Type":"Solution","StockExchange":"NQ","Name":"Alphabet Inc.","MarketCapitalization":"493.10","EBITDA":"23.30","PERatio":"30.22","Volume":"2075504"}
+,{"Symbol":"msft","Type":"Solution","StockExchange":"NQ","Name":"Microsoft Corporation","MarketCapitalization":"422.08","EBITDA":"32.44","PERatio":"35.13","Volume":"36848175"}
+,{"Symbol":"ibm","Type":"Solution","StockExchange":"NY","Name":"International Business Machines","MarketCapitalization":"127.81","EBITDA":"21.41","PERatio":"9.17","Volume":"4613817"}
+,{"Symbol":"orcl","Type":"Solution","StockExchange":"NY","Name":"Oracle Corporation Common Stock","MarketCapitalization":"159.22","EBITDA":"15.79","PERatio":"17.49","Volume":"23987579"}
+,{"Symbol":"hpq","Type":"Solution","StockExchange":"NY","Name":"HP Inc. Common Stock","MarketCapitalization":"23.57","EBITDA":"12.76","PERatio":"5.37","Volume":"17493705"}
+,{"Symbol":"ncr","Type":"Solution","StockExchange":"NY","Name":"NCR Corporation Common Stock","MarketCapitalization":"4.49","EBITDA":"0.34","PERatio":"","Volume":"3102378"}
+,{"Symbol":"dbd","Type":"Solution","StockExchange":"NY","Name":"Diebold, Incorporated Common St","MarketCapitalization":"2.31","EBITDA":"0.22","PERatio":"32.64","Volume":"278527"}
+,{"Symbol":"emc","Type":"Solution","StockExchange":"NY","Name":"EMC Corporation Common Stock","MarketCapitalization":"48.53","EBITDA":"5.21","PERatio":"21.03","Volume":"12458445"}
+,{"Symbol":"xrx","Type":"Solution","StockExchange":"NY","Name":"Xerox Corporation Common Stock","MarketCapitalization":"10.21","EBITDA":"1.69","PERatio":"32.83","Volume":"14288020"}
+,{"Symbol":"ca","Type":"Solution","StockExchange":"NQ","Name":"CA Inc.","MarketCapitalization":"11.64","EBITDA":"1.29","PERatio":"15.43","Volume":"2494674"}
+,{"Symbol":"acn","Type":"Solution","StockExchange":"NY","Name":"Accenture plc. Class A Ordinary","MarketCapitalization":"64.45","EBITDA":"5.15","PERatio":"21.66","Volume":"2039342"}
+,{"Symbol":"adbe","Type":"Software","StockExchange":"NQ","Name":"Adobe Systems Incorporated","MarketCapitalization":"44.40","EBITDA":"1.10","PERatio":"90.84","Volume":"1831380"}
+,{"Symbol":"adsk","Type":"Software","StockExchange":"NQ","Name":"Autodesk, Inc.","MarketCapitalization":"13.67","EBITDA":"0.20","PERatio":"","Volume":"3337991"}
+,{"Symbol":"symc","Type":"Software","StockExchange":"NQ","Name":"Symantec Corporation","MarketCapitalization":"13.31","EBITDA":"1.73","PERatio":"20.30","Volume":"5025149"}
+,{"Symbol":"vmw","Type":"Software","StockExchange":"NY","Name":"Vmware, Inc. Common stock, Clas","MarketCapitalization":"24.72","EBITDA":"1.70","PERatio":"26.53","Volume":"1316148"}
+,{"Symbol":"rht","Type":"Software","StockExchange":"NY","Name":"Red Hat, Inc. Common Stock","MarketCapitalization":"14.23","EBITDA":"0.36","PERatio":"74.76","Volume":"1381097"}
+,{"Symbol":"sap","Type":"Software","StockExchange":"NY","Name":"SAP SE ADS","MarketCapitalization":"93.40","EBITDA":"6.91","PERatio":"28.08","Volume":"785819"}
+,{"Symbol":"intu","Type":"Software","StockExchange":"NQ","Name":"Intuit Inc.","MarketCapitalization":"26.77","EBITDA":"1.09","PERatio":"75.30","Volume":"1540077"}
+,{"Symbol":"ctxs","Type":"Software","StockExchange":"NQ","Name":"Citrix Systems, Inc.","MarketCapitalization":"11.98","EBITDA":"0.80","PERatio":"44.65","Volume":"2657265"}
+,{"Symbol":"ment","Type":"Software","StockExchange":"NQ","Name":"Mentor Graphics Corporation","MarketCapitalization":"3.19","EBITDA":"0.29","PERatio":"20.55","Volume":"402943"}
+,{"Symbol":"fis","Type":"Software","StockExchange":"NY","Name":"Fidelity National Information S","MarketCapitalization":"18.37","EBITDA":"1.66","PERatio":"25.81","Volume":"1084537"}
+,{"Symbol":"fb","Type":"Web","StockExchange":"NQ","Name":"Facebook, Inc.","MarketCapitalization":"293.97","EBITDA":"6.66","PERatio":"104.37","Volume":"30278403"}
+,{"Symbol":"amzn","Type":"Web","StockExchange":"NQ","Name":"Amazon.com, Inc.","MarketCapitalization":"301.11","EBITDA":"7.01","PERatio":"920.27","Volume":"6261076"}
+,{"Symbol":"ebay","Type":"Web","StockExchange":"NQ","Name":"eBay Inc.","MarketCapitalization":"33.85","EBITDA":"4.89","PERatio":"15.33","Volume":"14700840"}
+,{"Symbol":"pcln","Type":"Web","StockExchange":"NQ","Name":"The Priceline Group Inc.","MarketCapitalization":"64.61","EBITDA":"3.44","PERatio":"27.11","Volume":"779937"}
+,{"Symbol":"aol","Type":"Web","StockExchange":"","Name":"","MarketCapitalization":"0.00","EBITDA":"0.00","PERatio":"","Volume":""}
+,{"Symbol":"yhoo","Type":"Web","StockExchange":"NQ","Name":"Yahoo! Inc.","MarketCapitalization":"30.40","EBITDA":"0.48","PERatio":"128.76","Volume":"11063301"}
+,{"Symbol":"lnkd","Type":"Web","StockExchange":"NY","Name":"LinkedIn Corporation Class A Co","MarketCapitalization":"31.85","EBITDA":"0.23","PERatio":"","Volume":"2004079"}
+,{"Symbol":"twtr","Type":"Web","StockExchange":"NY","Name":"Twitter, Inc. Common Stock","MarketCapitalization":"17.02","EBITDA":"-0.21","PERatio":"","Volume":"14333836"}
+,{"Symbol":"grpn","Type":"Web","StockExchange":"NQ","Name":"Groupon, Inc.","MarketCapitalization":"1.58","EBITDA":"0.09","PERatio":"22.54","Volume":"10216228"}
+,{"Symbol":"yndx","Type":"Web","StockExchange":"NQ","Name":"Yandex N.V.","MarketCapitalization":"4.84","EBITDA":"0.56","PERatio":"10.56","Volume":"2643766"}
+,{"Symbol":"bidu","Type":"Web","StockExchange":"NQ","Name":"Baidu, Inc.","MarketCapitalization":"67.03","EBITDA":"2.52","PERatio":"36.46","Volume":"4097055"}
+,{"Symbol":"nflx","Type":"Web","StockExchange":"NQ","Name":"Netflix, Inc.","MarketCapitalization":"44.30","EBITDA":"0.37","PERatio":"275.66","Volume":"18819418"}
+,{"Symbol":"renn","Type":"Web","StockExchange":"NY","Name":"Renren Inc. American Depositary","MarketCapitalization":"1.19","EBITDA":"-0.09","PERatio":"","Volume":"189025"}
+,{"Symbol":"z","Type":"Web","StockExchange":"NQ","Name":"Zillow Group, Inc.","MarketCapitalization":"4.13","EBITDA":"-0.02","PERatio":"","Volume":"1078477"}
+,{"Symbol":"zen","Type":"Web","StockExchange":"NY","Name":"Zendesk, Inc. Common Stock","MarketCapitalization":"2.01","EBITDA":"-0.07","PERatio":"","Volume":"505010"}
+,{"Symbol":"baba","Type":"Web","StockExchange":"NY","Name":"Alibaba Group Holding Limited A","MarketCapitalization":"186.67","EBITDA":"4.49","PERatio":"19.98","Volume":"24235506"}
+,{"Symbol":"pypl","Type":"Web","StockExchange":"NQ","Name":"PayPal Holdings, Inc.","MarketCapitalization":"42.18","EBITDA":"1.90","PERatio":"36.89","Volume":"7364367"}
+,{"Symbol":"intc","Type":"Electronics","StockExchange":"NQ","Name":"Intel Corporation","MarketCapitalization":"151.53","EBITDA":"23.32","PERatio":"13.80","Volume":"23673174"}
+,{"Symbol":"amd","Type":"Electronics","StockExchange":"NCM","Name":"Advanced Micro Devices, Inc.","MarketCapitalization":"1.57","EBITDA":"-0.17","PERatio":"","Volume":"5920191"}
+,{"Symbol":"nvda","Type":"Electronics","StockExchange":"NQ","Name":"NVIDIA Corporation","MarketCapitalization":"16.15","EBITDA":"1.02","PERatio":"27.85","Volume":"7323501"}
+,{"Symbol":"txn","Type":"Electronics","StockExchange":"NQ","Name":"Texas Instruments Incorporated","MarketCapitalization":"56.94","EBITDA":"5.34","PERatio":"20.15","Volume":"5741726"}
+,{"Symbol":"ter","Type":"Electronics","StockExchange":"NY","Name":"Teradyne, Inc. Common Stock","MarketCapitalization":"4.18","EBITDA":"0.37","PERatio":"41.67","Volume":"3490707"}
+,{"Symbol":"mu","Type":"Electronics","StockExchange":"NQ","Name":"Micron Technology, Inc.","MarketCapitalization":"15.59","EBITDA":"5.65","PERatio":"6.06","Volume":"21071244"}
+,{"Symbol":"amat","Type":"Electronics","StockExchange":"NQ","Name":"Applied Materials, Inc.","MarketCapitalization":"20.38","EBITDA":"1.98","PERatio":"15.39","Volume":"20075492"}
+,{"Symbol":"xlnx","Type":"Electronics","StockExchange":"NQ","Name":"Xilinx, Inc.","MarketCapitalization":"11.96","EBITDA":"0.78","PERatio":"21.75","Volume":"1936074"}
+,{"Symbol":"altr","Type":"Electronics","StockExchange":"NQ","Name":"Altera Corporation","MarketCapitalization":"15.93","EBITDA":"0.48","PERatio":"47.38","Volume":"1254948"}
+,{"Symbol":"qcom","Type":"Electronics","StockExchange":"NQ","Name":"QUALCOMM Incorporated","MarketCapitalization":"78.07","EBITDA":"8.67","PERatio":"16.13","Volume":"10439873"}
+,{"Symbol":"mchp","Type":"Electronics","StockExchange":"NQ","Name":"Microchip Technology Incorporat","MarketCapitalization":"9.27","EBITDA":"0.73","PERatio":"26.40","Volume":"1535011"}
+,{"Symbol":"atml","Type":"Electronics","StockExchange":"NQ","Name":"Atmel Corporation","MarketCapitalization":"3.45","EBITDA":"0.16","PERatio":"215.79","Volume":"15068306"}
+,{"Symbol":"cy","Type":"Electronics","StockExchange":"NQ","Name":"Cypress Semiconductor Corporati","MarketCapitalization":"3.35","EBITDA":"0.04","PERatio":"","Volume":"5854559"}
+,{"Symbol":"mscc","Type":"Electronics","StockExchange":"NQ","Name":"Microsemi Corporation","MarketCapitalization":"3.34","EBITDA":"0.30","PERatio":"40.28","Volume":"634882"}
+,{"Symbol":"lscc","Type":"Electronics","StockExchange":"NQ","Name":"Lattice Semiconductor Corporati","MarketCapitalization":"0.57","EBITDA":"0.04","PERatio":"","Volume":"1481289"}
+,{"Symbol":"brcm","Type":"Electronics","StockExchange":"NQ","Name":"Broadcom Corporation","MarketCapitalization":"31.29","EBITDA":"1.99","PERatio":"22.42","Volume":"4945131"}
+,{"Symbol":"mrvl","Type":"Electronics","StockExchange":"NQ","Name":"Marvell Technology Group Ltd.","MarketCapitalization":"4.41","EBITDA":"-0.05","PERatio":"","Volume":"3244499"}
+,{"Symbol":"stm","Type":"Electronics","StockExchange":"NY","Name":"STMicroelectronics N.V. Common","MarketCapitalization":"6.07","EBITDA":"0.93","PERatio":"43.19","Volume":"392547"}
+,{"Symbol":"sndk","Type":"Storage","StockExchange":"NQ","Name":"SanDisk Corporation","MarketCapitalization":"14.83","EBITDA":"1.48","PERatio":"35.72","Volume":"1418028"}
+,{"Symbol":"wdc","Type":"Storage","StockExchange":"NQ","Name":"Western Digital Corporation","MarketCapitalization":"13.96","EBITDA":"2.71","PERatio":"10.70","Volume":"3633734"}
+,{"Symbol":"stx","Type":"Storage","StockExchange":"NQ","Name":"Seagate Technology.","MarketCapitalization":"9.89","EBITDA":"1.98","PERatio":"7.68","Volume":"7420943"}
+,{"Symbol":"ea","Type":"Game","StockExchange":"NQ","Name":"Electronic Arts Inc.","MarketCapitalization":"21.72","EBITDA":"1.14","PERatio":"27.65","Volume":"3557361"}
+,{"Symbol":"znga","Type":"Game","StockExchange":"NQ","Name":"Zynga Inc.","MarketCapitalization":"2.30","EBITDA":"-0.02","PERatio":"","Volume":"6151605"}
+,{"Symbol":"king","Type":"Game","StockExchange":"NY","Name":"King Digital Entertainment plc","MarketCapitalization":"5.57","EBITDA":"0.73","PERatio":"10.20","Volume":"3773564"}
+,{"Symbol":"csco","Type":"Networking","StockExchange":"NQ","Name":"Cisco Systems, Inc.","MarketCapitalization":"133.15","EBITDA":"13.86","PERatio":"13.94","Volume":"94556197"}
+,{"Symbol":"jnpr","Type":"Networking","StockExchange":"NY","Name":"Juniper Networks, Inc. Common S","MarketCapitalization":"11.08","EBITDA":"0.97","PERatio":"","Volume":"7391422"}
+,{"Symbol":"irdm","Type":"Telecom","StockExchange":"NQ","Name":"Iridium Communications Inc","MarketCapitalization":"0.71","EBITDA":"0.21","PERatio":"9.27","Volume":"626783"}
+,{"Symbol":"nok","Type":"Telecom","StockExchange":"NY","Name":"Nokia Corporation Sponsored Ame","MarketCapitalization":"25.88","EBITDA":"1.95","PERatio":"21.57","Volume":"8651140"}
+,{"Symbol":"t","Type":"Telecom","StockExchange":"NY","Name":"AT&T Inc.","MarketCapitalization":"198.77","EBITDA":"32.65","PERatio":"33.97","Volume":"23626877"}
+,{"Symbol":"vod","Type":"Telecom","StockExchange":"NQ","Name":"Vodafone Group Plc","MarketCapitalization":"88.37","EBITDA":"15.27","PERatio":"","Volume":"2030868"}
+,{"Symbol":"vz","Type":"Telecom","StockExchange":"NY","Name":"Verizon Communications Inc. Com","MarketCapitalization":"179.97","EBITDA":"37.23","PERatio":"17.75","Volume":"12615597"}
+,{"Symbol":"alu","Type":"Telecom","StockExchange":"NY","Name":"Alcatel-Lucent Common Stock","MarketCapitalization":"10.80","EBITDA":"1.13","PERatio":"","Volume":"2622873"}
+,{"Symbol":"xom","Type":"Others","StockExchange":"NY","Name":"Exxon Mobil Corporation Common","MarketCapitalization":"325.13","EBITDA":"37.45","PERatio":"16.50","Volume":"17527266"}
+,{"Symbol":"cvx","Type":"Others","StockExchange":"NY","Name":"Chevron Corporation Common Stoc","MarketCapitalization":"166.90","EBITDA":"21.64","PERatio":"19.25","Volume":"7676617"}
+,{"Symbol":"ba","Type":"Others","StockExchange":"NY","Name":"Boeing Company (The) Common Sto","MarketCapitalization":"95.53","EBITDA":"9.91","PERatio":"17.95","Volume":"3063778"}
+,{"Symbol":"gm","Type":"Others","StockExchange":"NY","Name":"General Motors Company Common S","MarketCapitalization":"53.39","EBITDA":"13.45","PERatio":"12.59","Volume":"12090637"}
+,{"Symbol":"f","Type":"Others","StockExchange":"NY","Name":"Ford Motor Company Common Stock","MarketCapitalization":"55.24","EBITDA":"13.26","PERatio":"11.65","Volume":"25482657"}
+,{"Symbol":"dis","Type":"Others","StockExchange":"NY","Name":"Walt Disney Company (The) Commo","MarketCapitalization":"195.23","EBITDA":"15.58","PERatio":"23.44","Volume":"8078066"}
+,{"Symbol":"sbux","Type":"Others","StockExchange":"NQ","Name":"Starbucks Corporation","MarketCapitalization":"88.72","EBITDA":"4.28","PERatio":"32.82","Volume":"8821593"}
+,{"Symbol":"brk-a","Type":"Others","StockExchange":"NY","Name":"Berkshire Hathaway Inc. Common","MarketCapitalization":"325.03","EBITDA":"44.27","PERatio":"14.28","Volume":"149"}
+,{"Symbol":"ge","Type":"Others","StockExchange":"NY","Name":"General Electric Company Common","MarketCapitalization":"306.11","EBITDA":"28.42","PERatio":"","Volume":"247153654"}
+,{"Symbol":"wmt","Type":"Others","StockExchange":"NY","Name":"Wal-Mart Stores, Inc. Common St","MarketCapitalization":"180.88","EBITDA":"35.27","PERatio":"11.78","Volume":"12514909"}
+,{"Symbol":"ko","Type":"Others","StockExchange":"NY","Name":"Coca-Cola Company (The) Common","MarketCapitalization":"179.96","EBITDA":"12.37","PERatio":"26.39","Volume":"11619468"}
+,{"Symbol":"pep","Type":"Others","StockExchange":"NY","Name":"Pepsico, Inc. Common Stock","MarketCapitalization":"142.83","EBITDA":"12.10","PERatio":"29.09","Volume":"4001011"}
+,{"Symbol":"hog","Type":"Others","StockExchange":"NY","Name":"Harley-Davidson, Inc. Common St","MarketCapitalization":"9.68","EBITDA":"1.38","PERatio":"12.71","Volume":"2530593"}
+,{"Symbol":"cpb","Type":"Others","StockExchange":"NY","Name":"Campbell Soup Company Common St","MarketCapitalization":"14.86","EBITDA":"1.53","PERatio":"21.71","Volume":"1766630"}
+,{"Symbol":"jnj","Type":"Others","StockExchange":"NY","Name":"Johnson & Johnson Common Stock","MarketCapitalization":"276.36","EBITDA":"22.55","PERatio":"19.17","Volume":"8517537"}
+,{"Symbol":"pg","Type":"Others","StockExchange":"NY","Name":"Procter & Gamble Company (The)","MarketCapitalization":"201.21","EBITDA":"18.21","PERatio":"27.84","Volume":"8468836"}
+,{"Symbol":"pfe","Type":"Others","StockExchange":"NY","Name":"Pfizer, Inc. Common Stock","MarketCapitalization":"205.38","EBITDA":"19.48","PERatio":"24.98","Volume":"18065881"}
+,{"Symbol":"gsk","Type":"Others","StockExchange":"NY","Name":"GlaxoSmithKline PLC Common Stoc","MarketCapitalization":"96.41","EBITDA":"9.65","PERatio":"6.49","Volume":"2902487"}
+,{"Symbol":"mrk","Type":"Others","StockExchange":"NY","Name":"Merck & Company, Inc. Common St","MarketCapitalization":"148.14","EBITDA":"14.57","PERatio":"14.07","Volume":"11394539"}
+,{"Symbol":"lly","Type":"Others","StockExchange":"NY","Name":"Eli Lilly and Company Common St","MarketCapitalization":"84.43","EBITDA":"5.31","PERatio":"35.87","Volume":"3638556"}
+,{"Symbol":"abt","Type":"Others","StockExchange":"NY","Name":"Abbott Laboratories Common Stoc","MarketCapitalization":"65.58","EBITDA":"4.72","PERatio":"14.64","Volume":"6797538"}
+,{"Symbol":"bmy","Type":"Others","StockExchange":"NY","Name":"Bristol-Myers Squibb Company Co","MarketCapitalization":"107.02","EBITDA":"4.46","PERatio":"60.40","Volume":"6239054"}
+,{"Symbol":"c","Type":"Others","StockExchange":"NY","Name":"Citigroup, Inc. Common Stock","MarketCapitalization":"158.39","EBITDA":"0.00","PERatio":"12.00","Volume":"16828803"}
+,{"Symbol":"wfc","Type":"Others","StockExchange":"NY","Name":"Wells Fargo & Company Common St","MarketCapitalization":"278.73","EBITDA":"0.00","PERatio":"13.18","Volume":"16550247"}
+,{"Symbol":"jpm","Type":"Others","StockExchange":"NY","Name":"JP Morgan Chase & Co. Common St","MarketCapitalization":"241.30","EBITDA":"0.00","PERatio":"11.16","Volume":"11836959"}
+,{"Symbol":"bac","Type":"Others","StockExchange":"NY","Name":"Bank of America Corporation Com","MarketCapitalization":"180.88","EBITDA":"0.00","PERatio":"12.68","Volume":"103574885"}
+,{"Symbol":"pm","Type":"Others","StockExchange":"NY","Name":"Philip Morris International Inc","MarketCapitalization":"129.21","EBITDA":"12.08","PERatio":"17.94","Volume":"3471791"}
+,{"Symbol":"jcp","Type":"Others","StockExchange":"NY","Name":"J.C. Penney Company, Inc. Holdi","MarketCapitalization":"2.27","EBITDA":"0.50","PERatio":"","Volume":"79339891"}
+,{"Symbol":"v","Type":"Others","StockExchange":"NY","Name":"Visa Inc.","MarketCapitalization":"190.11","EBITDA":"9.57","PERatio":"30.04","Volume":"9913239"}
+,{"Symbol":"gs","Type":"Others","StockExchange":"NY","Name":"Goldman Sachs Group, Inc. (The)","MarketCapitalization":"84.95","EBITDA":"0.00","PERatio":"12.51","Volume":"2483957"}
+,{"Symbol":"axp","Type":"Others","StockExchange":"NY","Name":"American Express Company Common","MarketCapitalization":"70.08","EBITDA":"0.00","PERatio":"12.85","Volume":"4486731"}
+,{"Symbol":"ms","Type":"Others","StockExchange":"NY","Name":"Morgan Stanley Common Stock","MarketCapitalization":"65.70","EBITDA":"0.00","PERatio":"20.91","Volume":"8727958"}
+,{"Symbol":"fox","Type":"Others","StockExchange":"NQ","Name":"Twenty-First Century Fox, Inc.","MarketCapitalization":"59.12","EBITDA":"6.13","PERatio":"7.88","Volume":"3809982"}
+,{"Symbol":"cbs","Type":"Others","StockExchange":"NY","Name":"CBS Corporation Class B Common","MarketCapitalization":"23.52","EBITDA":"3.07","PERatio":"16.01","Volume":"4225104"}
+,{"Symbol":"viab","Type":"Others","StockExchange":"NQ","Name":"Viacom Inc.","MarketCapitalization":"19.90","EBITDA":"3.54","PERatio":"10.57","Volume":"4306716"}
+,{"Symbol":"twx","Type":"Others","StockExchange":"NY","Name":"Time Warner Inc. New Common Sto","MarketCapitalization":"55.91","EBITDA":"8.02","PERatio":"15.91","Volume":"5061864"}
+,{"Symbol":"dal","Type":"Others","StockExchange":"NY","Name":"Delta Air Lines, Inc. Common St","MarketCapitalization":"38.60","EBITDA":"7.81","PERatio":"14.10","Volume":"9207269"}
+,{"Symbol":"ual","Type":"Others","StockExchange":"NY","Name":"United Continental Holdings","MarketCapitalization":"21.92","EBITDA":"6.78","PERatio":"3.41","Volume":"3085183"}
+,{"Symbol":"aal","Type":"Others","StockExchange":"NQ","Name":"American Airlines Group, Inc.","MarketCapitalization":"27.39","EBITDA":"8.67","PERatio":"6.24","Volume":"7486143"}
+,{"Symbol":"luv","Type":"Others","StockExchange":"NY","Name":"Southwest Airlines Company Comm","MarketCapitalization":"29.84","EBITDA":"4.66","PERatio":"16.88","Volume":"5347952"}
+,{"Symbol":"fisv","Type":"Others","StockExchange":"NQ","Name":"Fiserv, Inc.","MarketCapitalization":"21.57","EBITDA":"1.60","PERatio":"32.32","Volume":"838579"}
+]
