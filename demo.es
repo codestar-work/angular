@@ -41,19 +41,7 @@ import { bootstrap, Component, Inject, NgFor } from "angular2/angular2";
 class Demo {
 	constructor(@Inject(StockService) service) {
 		this.service = service;
-		// this.service.read(data => this.result = data);
-	}
-	search(query) {
-		let query = query.toUpperCase();
-		this.result = [];
-		this.service.read(data => {
-			for (let i = 0; i < data.length; i++) {
-				if (data[i].Name &&
-					data[i].Name.toUpperCase().indexOf(query) >= 0) {
-					this.result.push(data[i]);
-				}
-			}
-		});
+		this.service.read(data => this.result = data);
 	}
 }
 bootstrap(Demo);
