@@ -17,7 +17,8 @@ constructor(@Inject(StockService) service) {
 	this.service.read(data => this.result = data);
 }
 ```
-ตัวอย่าง component ที่ไม่สมบูรณ์อยู่ใน demo.es 
+ตัวอย่าง component ที่ไม่สมบูรณ์อยู่ใน demo.es
+
 1. ให้เขียน component ที่มีช่องใส่ข้อมูลเพื่อให้ผู้ใช้ค้นหาชื่อจากส่วนหนึ่งของชื่อบริษัท เช่น fa คือ Facebook และ Wells Fargo แล้วแสดงผลออกมาในรูปแบบตาราง โดยไม่ต้อง refresh หน้าจอ
 2. ตลาดหุ้นหลักในสหรัฐจะมี 2 แห่งคือ New York Stock Exchange และ NASDAQ ในข้อมูลจะใช้คำว่า NYQ และ NMS ตามลำดับ ให้เขียน Component แสดงมูลค่าบริษัท 10 อันดับแรกของแต่ละตลาด แสดงพร้อมกันทั้ง 2 tables
 3. ให้สร้าง component ที่มีช่องเลือกข้อมูลแบบ select เป็นตลาดหุ้น NYQ และ NMS จากนั้นแสดงหุ้นทั้งหมดที่มาจากตลาดหุ้นที่ผู้ใช้เลือก
