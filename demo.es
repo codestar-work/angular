@@ -5,10 +5,20 @@ import { bootstrap, Component, Inject, NgFor } from "angular2/angular2";
 
 @Component({
 	selector: "app",
+	styles: ['.input-group { margin: 10px 0 }']
 	directive: [NgFor],
 	providers: [StockService],
 	template: `
-	<table class='table table-striped'>
+	<div class="input-group">
+		<input type='text' class='form-control' placeholder='Search'
+			autofocus='autofocus'
+			#query (keyup.enter)='search(query.value)' />
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button">Search</button>
+			</span>
+	</div>
+
+	<table class='table table-striped' *ng-if="result?.length > 0">
 		<tr>
 			<th>Symbol</th>
 			<th>Name</th>
@@ -31,8 +41,19 @@ import { bootstrap, Component, Inject, NgFor } from "angular2/angular2";
 class Demo {
 	constructor(@Inject(StockService) service) {
 		this.service = service;
-		this.service.read(d => this.result = d);
-		this.service.read(d => console.log(d));
+		// this.service.read(data => this.result = data);
+	}
+	search(query) {
+		let query = query.toUpperCase();
+		this.result = [];
+		this.service.read(data => {
+			for (let i = 0; i < data.length; i++) {
+				if (data[i].Name &&
+					data[i].Name.toUpperCase().indexOf(query) >= 0) {
+					this.result.push(data[i]);
+				}
+			}
+		});
 	}
 }
 bootstrap(Demo);

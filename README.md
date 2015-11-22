@@ -10,6 +10,16 @@
 // import { StockService } from "./stock-service.es";
 import { StockService } from "./stock-service-mock.es";
 ```
-1. ตลาดหุ้นในสหรัฐจะมี New York Stock Exchange และ NASDAQ ในข้อมูลจะใช้คำว่า NYQ และ NMS ตามลำดับ ให้เขียน Component แสดงมูลค่าบริษัท 10 อันดับแรกของแต่ละตลาด
-
-2. ให้เขียน Custom Pipe แปลงเลขอารบิกเป็นเลขไทย เช่น {{ 12345 | thaiNumber }} ได้ผลเป็น ๑๒๓๔๕
+ตัวอย่างการส่ง StockService เข้าไปใน component ผ่าน Dependency Injection และอ่านข้อมูลใน constructor
+```ecmascript
+	constructor(@Inject(StockService) service) {
+		this.service = service;
+		this.service.read(data => this.result = data);
+	}
+```
+1. ให้เขียน component ที่มีช่องใส่ข้อมูลเพื่อให้ผู้ใช้ค้นหาชื่อจากส่วนหนึ่งของชื่อบริษัท เช่น fa คือ Facebook และ Wells Fargo แล้วแสดงผลออกมาในรูปแบบตาราง โดยไม่ต้อง refresh หน้าจอ
+2. ตลาดหุ้นหลักในสหรัฐจะมี 2 แห่งคือ New York Stock Exchange และ NASDAQ ในข้อมูลจะใช้คำว่า NYQ และ NMS ตามลำดับ ให้เขียน Component แสดงมูลค่าบริษัท 10 อันดับแรกของแต่ละตลาด แสดงพร้อมกันทั้ง 2 tables
+3. ให้สร้าง component ที่มีช่องเลือกข้อมูลแบบ select เป็นตลาดหุ้น NYQ และ NMS จากนั้นแสดงหุ้นทั้งหมดที่มาจากตลาดหุ้นที่ผู้ใช้เลือก
+4. ให้เขียน Service เพื่อหาระยะทางระหว่างสองเมืองโดยอ่านจาก Google Service เช่น ระยะทางระหว่าง Seattle และ Detroit คือ
+https://maps.googleapis.com/maps/api/distancematrix/json?origins=Seattle&destinations=Detroit
+5. ให้เขียน Custom Pipe แปลงเลขอารบิกเป็นเลขไทย เช่น {{ 12345 | thaiNumber }} ได้ผลเป็น ๑๒๓๔๕
