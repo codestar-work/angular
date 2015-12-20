@@ -15,18 +15,21 @@
 			<app></app>
 		</div>
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/system.js"></script>
-		<script src="js/typescript.js"></script>
-		<script src="js/angular2.js"></script>
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+
+		<script src="/js/system.js"></script>
+		<script src="/js/typescript.js"></script>
+		<script src="/js/angular2-polyfills.min.js"></script>
+		<script src="/js/Rx.min.js"></script>
+		<script src="/js/angular2.min.js"></script>
 
 		<script>
 			System.config({
 				transpiler: 'typescript',
 				typescriptOptions: { emitDecoratorMetadata: true }
 			});
-			System.import('./demo.es');
+			System.import('app.js');
 		</script>
 
 	</body>

@@ -1,10 +1,12 @@
-import { bootstrap, Component, View, NgFor } from 'angular2/angular2';
+import { Component, View } from 'angular2/core';
+import { NgFor, NgIf } from 'angular2/common';
+import { bootstrap } from 'angular2/platform/browser';
 
 @Component({
 	selector: 'search'
 })
 @View({
-	directives: [NgFor],
+	directives: [NgFor, NgIf],
 	template: `
 	<div id="search-panel">
 		<div class="input-group">
@@ -19,8 +21,8 @@ import { bootstrap, Component, View, NgFor } from 'angular2/angular2';
 		</div>
 	</div>
 
-	<ul id="search-result" *ng-if="result.length > 0">
-		<li *ng-for="#item of result">
+	<ul id="search-result" *ngIf="result.length > 0">
+		<li *ngFor="#item of result">
 			<a href="javascript:goto({{item.latitude}}, {{item.longitude}})">
 				<span class='suburb'>{{item.suburb}}</span>
 				<span class='address'>{{item.address}}</span>
@@ -59,17 +61,5 @@ class Map {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 bootstrap(Map);
