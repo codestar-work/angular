@@ -1,0 +1,24 @@
+{
+	"name": "angular2-demo",
+	"version": "1.0.0",
+	"scripts": {
+		"tsc": "tsc",
+		"tsc:w": "tsc -w",
+		"lite": "lite-server",
+		"start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+	},
+	"dependencies": {
+		"angular2": "*",
+		"systemjs": "*",
+		"es6-promise": "*",
+		"es6-shim": "*",
+		"reflect-metadata": "*",
+		"rxjs": "*",
+		"zone.js": "*"
+	},
+	"devDependencies": {
+		"concurrently": "*",
+		"lite-server": "*",
+		"typescript": "*"
+	}
+}
