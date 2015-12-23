@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<script src=
+	"https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>
+<script>
+	function MyController($scope, $http) {
+		$scope.days = ["Sunday", "Monday", "Tuesday", "Wednesday",
+			"Thursday", "Friday", "Saturday"];
+	}
+	var app = angular.module('MyApp', []);
+	app.controller('MyController', MyController);
+</script>
+<div ng-app-old="MyApp" ng-controller="MyController">
+	<select>
+		<option ng-repeat="d in days">{{ d }}</option>
+	</select>
+</div>
+
+<script src="https://code.angularjs.org/tools/system.js"></script>
+<script src="https://code.angularjs.org/tools/typescript.js"></script>
+<script src="https://code.angularjs.org/2.0.0-beta.0/angular2-polyfills.min.js"></script>
+<script src="https://code.angularjs.org/2.0.0-beta.0/Rx.min.js"></script>
+<script src="https://code.angularjs.org/2.0.0-beta.0/angular2.min.js"></script>
+<script src="https://code.angularjs.org/2.0.0-beta.0/upgrade.js"></script>
+
+<script>
+	System.config({
+		transpiler: 'typescript',
+		typescriptOptions: { emitDecoratorMetadata: true }
+	});
+	System.import('./migrate.js');
+</script>
+
+</body>
+</html>
