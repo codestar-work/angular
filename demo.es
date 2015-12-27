@@ -1,12 +1,13 @@
-// import { StockService } from "./stock-service.es";
-import { StockService } from "./stock-service-mock.es";
-
-import { bootstrap, Component, Inject, NgFor } from "angular2/angular2";
+import { Component, Inject } from "angular2/core";
+import { NgFor, NgIf } from "angular2/common";
+import { bootstrap } from "angular2/platform/browser";
+import { StockService } from "./stock-service.es";
+// import { StockService } from "./stock-service-mock.es";
 
 @Component({
 	selector: "app",
 	styles: ['.input-group { margin: 10px 0 }']
-	directive: [NgFor],
+	directive: [NgFor, NgIf],
 	providers: [StockService],
 	template: `
 	<div class="input-group">
@@ -18,7 +19,7 @@ import { bootstrap, Component, Inject, NgFor } from "angular2/angular2";
 			</span>
 	</div>
 
-	<table class='table table-striped' *ng-if="result?.length > 0">
+	<table class='table table-striped' *ngIf="result?.length > 0">
 		<tr>
 			<th>Symbol</th>
 			<th>Name</th>
@@ -27,7 +28,7 @@ import { bootstrap, Component, Inject, NgFor } from "angular2/angular2";
 			<th>P/E Ratio</th>
 			<th>Stock Exchange</th>
 		</tr>
-		<tr *ng-for="#x of result">
+		<tr *ngFor="#x of result">
 			<td>{{ x.Symbol }}</td>
 			<td>{{ x.Name }}</td>
 			<td>{{ x.MarketCapitalization }}</td>
