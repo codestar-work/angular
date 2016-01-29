@@ -6,7 +6,7 @@ import { bootstrap } from 'angular2/platform/browser';
 	selector: 'search'
 })
 @View({
-	directives: [NgFor, NgIf],
+	directives: [NgFor],
 	template: `
 	<div id="search-panel">
 		<div class="input-group">
