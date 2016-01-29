@@ -1,7 +1,7 @@
 var App = ng.core
 .Component({
 	selector: 'app',
-	template: 'Hello {{ name }}'
+	template: '<i>Hello {{ name }}</i>'
 })
 .Class({
 	constructor: function() {

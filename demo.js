@@ -1,8 +1,8 @@
 import { Component, Inject } from "angular2/core";
 import { NgFor, NgIf } from "angular2/common";
 import { bootstrap } from "angular2/platform/browser";
-import { StockService } from "./stock-service.es";
-// import { StockService } from "./stock-service-mock.es";
+import { StockService } from "./stock-service.js";
+// import { StockService } from "./stock-service-mock.js";
 
 @Component({
 	selector: "app",
@@ -19,7 +19,7 @@ import { StockService } from "./stock-service.es";
 			</span>
 	</div>
 
-	<table class='table table-striped' *ngIf="result?.length > 0">
+	<table class='table table-striped'>
 		<tr>
 			<th>Symbol</th>
 			<th>Name</th>
@@ -43,6 +43,11 @@ class Demo {
 	constructor(@Inject(StockService) service) {
 		this.service = service;
 		this.service.read(data => this.result = data);
+		this.result = [];
+	}
+
+	search(info) {
+
 	}
 }
 bootstrap(Demo);
