@@ -3,8 +3,9 @@ import { bootstrap } from 'angular2/platform/browser';
 
 @Component({
 	selector: 'app',
-	template: '<i>Hello World!</i>'
+	template: `<i>Hello World!</i>`
 })
-class App { }
+class App {
+}
 
 bootstrap(App);
